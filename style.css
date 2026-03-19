@@ -89,3 +89,13 @@ th, td {
   border: solid 1px var(--table-border);
   padding: 0.5rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #eeeeee;
+    --theme-color: #4fd1c5;
+    --table-even: #1e1e1e;
+    --table-border: #333;
+  }
+}
